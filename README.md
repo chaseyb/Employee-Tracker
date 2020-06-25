@@ -24,13 +24,12 @@
   ```
  
   ## Usage
-    * Open gitbash on Windows or Terminal on Mac
-  * https://github.com/chaseyb/Note-Taker.git
-  * Open README-Generator in Terminal/CLI, and enter:
-    ```
-  npm start
-  ```
-          
+* Open gitbash on Windows or Terminal on Mac
+* https://github.com/chaseyb/Note-Taker.git
+* Open README-Generator in Terminal/CLI, and enter:
+```
+npm start
+```  
   ## Licences 
   ![badge](https://img.shields.io/badge/License-Open-blue.svg)
           
