@@ -24,6 +24,7 @@
   ```
  
   ## Usage
+<<<<<<< HEAD
 * This application needs mysql to run 
 * Open gitbash on Windows or Terminal on Mac
 * https://github.com/chaseyb/employee-tracer.git
@@ -34,6 +35,14 @@ source db/schema.sql
 source db/seeds.sql
 npm start
 ```
+=======
+* Open gitbash on Windows or Terminal on Mac
+* https://github.com/chaseyb/Note-Taker.git
+* Open README-Generator in Terminal/CLI, and enter:
+```
+npm start
+```  
+>>>>>>> 42651d86d843bbb073ab149693140c60f52974d3
   ## Licences 
   ![badge](https://img.shields.io/badge/License-Open-blue.svg)
           
