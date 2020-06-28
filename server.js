@@ -1,14 +1,13 @@
 
-const mysql = require('mysql2');
+const mysql = require('mysql');
 const inquirer = require('inquirer');
-
 
 // My SQL connection 
 const connection = mysql.createConnection({
     host: 'localhost',
     port: 3306,
     user: 'root',
-    password: '',
+    password: 'Player23007',
     database: 'employeesdb'
   });
 
@@ -103,7 +102,6 @@ function viewRoles() {
   })
 }
 
-
 async function addDepartment() {
   await inquirer.prompt([
       {
@@ -127,6 +125,7 @@ async function addDepartment() {
   });
 }
 
+// Add Employee
 async function addEmployee() {
   // Get the roles to display for selection
   connection.query('SELECT role.id, role.title FROM role', (err, res) => {
@@ -191,10 +190,10 @@ async function addEmployee() {
   })
 }
 
-
+// Add new role 
 async function addRole () {
   let departments = []
-
+  // Get the roles to display for selection
   connection.query(`SELECT * FROM department`, (err, data) => {
       if (err) throw err;
 
@@ -220,7 +219,7 @@ async function addRole () {
               }
           ])
           .then(function ({ title, salary, department_id }) {
-              // let index = departments.indexOf(department_id);
+
 
               connection.query('INSERT INTO role (title, salary, department_id) VALUES (?, ?, ?)', [title, salary, department_id], (err, res) => {
                   if (err) throw err;
