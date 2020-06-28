@@ -24,13 +24,16 @@
   ```
  
   ## Usage
-    * Open gitbash on Windows or Terminal on Mac
-  * https://github.com/chaseyb/Note-Taker.git
-  * Open README-Generator in Terminal/CLI, and enter:
-    ```
-  npm start
-  ```
-          
+* This application needs mysql to run 
+* Open gitbash on Windows or Terminal on Mac
+* https://github.com/chaseyb/employee-tracer.git
+* Open README-Generator in Terminal/CLI, and enter:
+```
+mysql -u root -p
+source db/schema.sql
+source db/seeds.sql
+npm start
+```
   ## Licences 
   ![badge](https://img.shields.io/badge/License-Open-blue.svg)
           

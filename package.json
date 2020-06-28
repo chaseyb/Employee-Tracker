@@ -1,0 +1,26 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A application that manages a company's employees using node, inquirer, and MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaseyb/Employee-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaseyb/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/chaseyb/Employee-Tracker#readme",
+  "dependencies": {
+    "console-table": "^0.1.2",
+    "inquirer": "^7.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0"
+  }
+}
