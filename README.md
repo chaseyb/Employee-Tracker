@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/chaseyb/note-taker)
 ![GitHub top language](https://img.shields.io/github/languages/top/chaseyb/note-taker)
   
-   <img src="tracker.png">
+   <img src="src/tracker.png">
 
   ## Table of Contents
   - [Description](#description)
@@ -26,7 +26,7 @@
   ## Usage
 * This application needs mysql to run 
 * Open gitbash on Windows or Terminal on Mac
-* https://github.com/chaseyb/employee-tracer.git
+* Git Clone https://github.com/chaseyb/employee-tracker.git
 * Open README-Generator in Terminal/CLI, and enter:
 ```
 mysql -u root -p
